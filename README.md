@@ -5,9 +5,8 @@ Shell script to install a [Beetok Masternode](https://www.beetok.io/) on a Linux
 ## Update the Beetok Wallet:
 ```
 systemctl stop Beetok.service
-rm -rf mn
-git clone https://github.com/Beetok/mn
-bash mn/mn
+wget -qO- https://github.com/Beetok/beetok/releases/download/v1.0.0/beetok-1.0.0-x64-linux-tar.gz | sudo tar xvz -C /usr/local/bin/
+systemctl start Beetok.service
 ```
 
 ***
