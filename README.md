@@ -4,9 +4,9 @@ Shell script to install a [Beetok Masternode](https://www.beetok.io/) on a Linux
 ***
 ## Update the Beetok Wallet:
 ```
-systemctl stop Safegames.service
+systemctl stop Beetok.service
 rm -rf mn
-git clone https://github.com/safegames/mn
+git clone https://github.com/Beetok/mn
 bash mn/mn
 ```
 
