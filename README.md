@@ -22,7 +22,7 @@ bash mn.sh
 Steps to install the Windows Wallet
 1. Open the Beetok Coin Desktop Wallet.
 2. Go to RECEIVE and create a New Address: **mn1**
-3. Send **5000** **BTOK** to **mn1**.
+3. Send **2000** **BTOK** to **mn1**.
 4. Wait for 15 confirmations.
 5. Go to **Tools -> "Debug console - Console"**
 6. Type the following command: **masternode outputs**
