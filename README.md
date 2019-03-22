@@ -13,8 +13,7 @@ systemctl start Beetok.service
 ## Install the Beetok Wallet:
 ```
 git clone https://github.com/Beetok/mn/
-cd mn
-bash mn.sh
+bash mn/mn
 ```
 
 ***
