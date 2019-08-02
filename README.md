@@ -12,8 +12,20 @@ beetokd -daemon
 ## Update the Beetok Wallet as a Service:
 ```
 systemctl stop Beetok.service
-wget -qO- https://github.com/Beetok/Beetok-Core/releases/download/v1.0.0.2/BEETOK-linux.tar.gz | sudo tar xvz -C /usr/local/bin/
+wget -qO- https://github.com/Beetok/Beetok-Core/releases/download/v1.0.0.3/BEETOK-linux.tar.gz | sudo tar xvz -C /usr/local/bin/
 systemctl start Beetok.service
+```
+***
+## Manual Updating vps:
+```
+cd /usr/local/bin/
+rm -rf beetokd
+rm -rf beetok-cli
+wget https://github.com/Beetok/Beetok-Core/releases/download/v1.0.0.3/BEETOK-linux.tar.gz
+tar -xvf BEETOK-linux.tar.gz
+rm -rf BEETOK-linux.tar.gz
+cd
+systemctl start Beetok
 ```
 ***
 ## Install the Beetok Wallet:
