@@ -18,6 +18,8 @@ systemctl start Beetok.service
 ***
 ## Manual Updating vps:
 ```
+systemctl stop Beetok
+
 cd /usr/local/bin/
 rm -rf beetokd
 rm -rf beetok-cli
@@ -28,6 +30,16 @@ cd
 systemctl start Beetok
 ```
 ***
+## Do A Fresh Sync
+```
+systemctl stop Beetok
+cd /root/.beetok/
+rm -rf blocks
+rm -rf chainstate
+rm -rf banlist.dat
+cd
+systemctl start Beetok
+```
 ## Install the Beetok Wallet:
 ```
 git clone https://github.com/Beetok/mn/
