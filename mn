@@ -4,7 +4,7 @@ CONFIG_FILE='beetok.conf'
 CONFIGFOLDER='/root/.beetok'
 COIN_DAEMON='/usr/local/bin/beetokd'
 COIN_CLI='/usr/local/bin/beetok-cli'
-COIN_REPO='https://github.com/Beetok/Beetok-Core/releases/download/v1.0.0.2/BEETOK-linux.tar.gz'
+COIN_REPO='https://github.com/Beetok/Beetok-Core/releases/download/v1.0.0.3/BEETOK-linux.tar.gz'
 COIN_NAME='Beetok'
 COIN_PORT=1112
 
